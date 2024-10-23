@@ -1,0 +1,48 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "gender": "male",
+      "healthGoals": ["weight loss", "increase muscle strength"]
+    }
+  ],
+  "mealPlans": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2024-02-26",
+      "meals": [
+        {
+          "mealType": "Breakfast",
+          "description": "Oatmeal with almonds and berries"
+        }
+      ]
+    }
+  ],
+  "workouts": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2024-02-26",
+      "exercises": [
+        {
+          "exerciseName": "Running",
+          "duration": "30 minutes",
+          "intensity": "Medium"
+        }
+      ]
+    }
+  ],
+  "meditation": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2024-02-26",
+      "sessionLength": "20 minutes",
+      "type": "Guided",
+      "focus": "Mindfulness"
+    }
+  ]
+}
